@@ -58,6 +58,8 @@ img{
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
+
 /*кОНТАКТ пИСЬМО И Телефон*/
 
 
@@ -256,8 +258,11 @@ fill: #2196F3;
     color:#2196F3
 }
 .a_studio{
-  
+    margin-right: 50px;
     list-style: none;
+}
+.a_studio:last-child{
+    margin-right: 0;
 }
 
 
@@ -444,7 +449,6 @@ fill: #2196F3;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 50px;
-    max-width: 1600px;
     margin: 0 auto;
 }
 .link_street{
