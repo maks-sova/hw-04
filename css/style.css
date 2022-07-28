@@ -190,7 +190,7 @@ display: flex;
 }
 .style-teams{
     background: #F5F4FA;
-    max-width: 1600px;
+
     margin: 0 auto;
 }
 /*Постояные кленты*/
@@ -205,45 +205,40 @@ display: flex;
      color: #212121;
      margin-bottom: 50px;
 }
-.client-container{
+.client-korop{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.client-block-info{
+.client-info{
     width: 170px;
     height: 92px;
     list-style: none;
     border: 1px solid #afb1b8;
     border-radius: 4px;
  }
-.client-block-link{
+.client-link{
+    display: flex;
     width: 170px;
     height: 92px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-  
-   }
-   .client-block-link{
-    fill: #afb1b8;
-   }
-.client-link{
-    fill: #AFB1B8; 
-    
-    
+   
+    fill: #AFB1B8;
+    justify-content:center;
 }
-.client-block-info:last-child{
+
+.client-info:last-child{
     margin-right: 0;
 }
-.client-block-link:hover,
-.client-block-link:focus{
-    fill:#2196F3;
+.client-link:hover,
+.client-link:focus{
+    fill: #2196F3;
 }
-.client-block-info:hover,
-.client-block-info:focus{
+.client-info:hover,
+.client-info:focus{
 border: solid 1px #2196F3;
+
 }
 
 
