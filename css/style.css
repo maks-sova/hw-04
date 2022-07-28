@@ -48,12 +48,17 @@ display: flex;
   
 }
 
+
 .activity{
     width: 12px;
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     
+}
+.link_info:hover,
+.link_info:focus{
+    fill: #2196F3;
 }
 .activitys{
     display: flex;
@@ -75,12 +80,21 @@ display: flex;
 }
 /*кОНТАКТ пИСЬМО И Телефон*/
 
-
-.svg-link:hover{
-fill: #2196F3;
+.svg-link{
+    margin-right: 10px;
+    
+}
+.svg-link:hover,
+.svg-link:focus{
+    fill: #2196F3;
 }
 
-   
+.style-mailto{
+    margin-right: 30px;
+}
+   .style-mailto:last-child{
+    margin-right: 0;
+   }
 /*Секция ефективные решения */
 .style-section{
     padding: 200px 0;
@@ -210,24 +224,32 @@ fill: #2196F3;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  
+   }
+   .client-block-link{
+    fill: #afb1b8;
+   }
 .client-link{
     fill: #AFB1B8; 
+    
     
 }
 .client-block-info:last-child{
     margin-right: 0;
 }
+.client-block-link:hover,
+.client-block-link:focus{
+    fill:#2196F3;
+}
 .client-block-info:hover,
-.client-block-info:focus
-{
-    fill:#2196F3;
-    border: solid 1px #2196F3;
+.client-block-info:focus{
+border: solid 1px #2196F3;
 }
-.client-link:hover,
-.client-link:focus{
-    fill:#2196F3;
-}
+
+
+
+                        
+
 
 /*Подвал*/
 .styly-ly{
@@ -528,7 +550,7 @@ fill: #2196F3;
    padding: 20px 24px 20px 24px;
    border: 1px solid #EEEEEE;
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   
     
 }
 
