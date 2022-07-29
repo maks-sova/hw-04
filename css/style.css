@@ -28,6 +28,10 @@ display: flex;
 }
 
 /*Шапка*/
+.lost:hover,
+.lost:focus{
+    color: #2196F3;
+}
 .header-solid{
     border: 1px solid #EEEEEE;
 }
@@ -54,7 +58,7 @@ display: flex;
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
-    
+   
 }
 .link_info:hover,
 .link_info:focus{
@@ -83,10 +87,15 @@ display: flex;
 .svg-link{
     margin-right: 10px;
     
+    
 }
 .svg-link:hover,
 .svg-link:focus{
     fill: #2196F3;
+}
+.link_info:hover,
+.link_info:focus{
+    color:#2196F3;
 }
 
 .style-mailto{
@@ -342,9 +351,7 @@ border: solid 1px #2196F3;
     box-sizing: border-box;
     
 }
-.link_info:hover{
-    color:#2196F3;
-}
+
 
 .stydi-link{
     margin-right: 50px;
