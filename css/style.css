@@ -24,7 +24,7 @@ img{
     padding-right: 15px; 
 }
 .style-container{
-display: flex;
+    display: flex;
 }
 
 /*Шапка*/
@@ -85,9 +85,8 @@ display: flex;
 /*кОНТАКТ пИСЬМО И Телефон*/
 
 .svg-link{
-    margin-right: 10px;
-    
-    
+    margin-right: 10px; 
+    fill: currentColor;
 }
 .svg-link:hover,
 .svg-link:focus{
@@ -224,17 +223,17 @@ display: flex;
     width: 170px;
     height: 92px;
     list-style: none;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
+   
  }
 .client-link{
     display: flex;
     width: 170px;
     height: 92px;
     align-items: center;
-   
     fill: #AFB1B8;
     justify-content:center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
 }
 
 .client-info:last-child{
@@ -243,13 +242,12 @@ display: flex;
 .client-link:hover,
 .client-link:focus{
     fill: #2196F3;
+    border-color: #2196F3;
 }
-.client-info:hover,
-.client-info:focus{
-border: solid 1px #2196F3;
-
+.client-link:hover,
+.client-link:focus{
+    border: 1px solid #2196f3;
 }
-
 
 
                         
